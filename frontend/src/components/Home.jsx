@@ -8,6 +8,7 @@ import Header from './Header';
 import TimeLine from './TimeLine';
 import Prizes from './Prizes';
 import Past from './Past';
+import DomainsContainer from './Domain';
 
 const FallingFlower = ({ id, posX, posY, onAnimationEnd }) => {
   return (
@@ -88,7 +89,11 @@ const Home = () => {
 
             <div id="timeline">
               <TimeLine />
-            </div>            
+            </div>      
+
+            <div id="domain">
+              <DomainsContainer />
+            </div>      
 
             <div id="guidelines">
                 <GuidelinesSection />

@@ -56,8 +56,8 @@ const TimeLine = () => {
     const events = [
         { date: "MARCH 17, 2025", title: "Registration Starts", description: "Registration for the Agritech2.0 Hackathon will be open for all participants." },
         { date: "MARCH 21, 2025", title: "Registration Ends", description: "Don't miss your chance to participate and showcase your skills. The last date to register is March 21. Sign up today and be part of the event." },
-        { date: "MARCH 23, 2025", title: "Evaluation and Shortlisting", description: "Each team will be shortlisted based on their abstract." },
-        { date: "MARCH 24, 2025", title: "Declaration of Selected Teams", description: "The selected teams for Agritech2.0 will be announced." },
+        { date: "MARCH 22, 2025", title: "Evaluation and Shortlisting", description: "Each team will be shortlisted based on their abstract." },
+        { date: "MARCH 22, 2025", title: "Declaration of Selected Teams", description: "The selected teams for Agritech2.0 will be announced." },
         { date: "MARCH 25-26, 2025", title: "The Main Event", description: "Intensive 24-hour Hackathon will be conducted on March 25 and 26." }
     ];
 

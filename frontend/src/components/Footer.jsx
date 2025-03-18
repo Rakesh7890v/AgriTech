@@ -15,15 +15,13 @@ const Footer = () => {
                     <ul>
                         <li><span className="name">Mr. Satheesh Kumar. S</span>, M.E. - <span className="phone">8489715566</span></li>
                         <li><span className="name">Ms. Veera Karunya .G</span>, M.Tech. - <span className="phone">9600962704</span></li>
-                        <li><span className="name">Ms. Bhavadharani .B</span>, M.E. - <span className="phone">9597223126</span></li>
                     </ul>
                     </div>
                     <div className="student-coordinators">
                     <h3>STUDENT CO-ORDINATORS</h3>
                     <ul>
                         <li><span className="name">Christopher. S</span>, III Year - <span className="phone">8220083222</span></li>
-                        <li><span className="name">Karthika. S</span>, III Year - <span className="phone">9025162735</span></li>
-                        <li><span className="name">Anand. R</span>, III Year - <span className="phone">9677682109</span></li>
+                        <li><span className="name">Manashwini. M Y</span>, III Year - <span className="phone">8667444368</span></li>
                     </ul>
                     </div>
                 </div>

@@ -200,7 +200,7 @@ span {
   margin-top: 100px;
   color: white;
 }
-.cash-container h1, .guidelines-container h1, .timeline-header, .guidelines-container h1, .faq-header {
+.cash-container h1, .guidelines-container h1, .timeline-header, .guidelines-container h1, .faq-header, .domains-title {
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
@@ -698,6 +698,65 @@ span {
   transform: translateY(-10px);
 }
 
+
+.domains-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-top: 100px;
+}
+
+.domains-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.domain-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(65, 65, 65));
+  border: 1px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 16px;
+  padding-left: 35px;
+  width: 250px;
+  height: 100px;
+}
+.domain-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f7f0;
+}
+
+@media (max-width: 600px) {
+  .domains-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .domains-title {
+    font-size: 24px;
+  }
+  
+  .domain-item {
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 768px) {
   .guide-animate {
