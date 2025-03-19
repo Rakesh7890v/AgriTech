@@ -31,7 +31,7 @@ const WelcomeSplash = ({ onComplete }) => {
     <div className="welcome-splash">
       <div className="welcome-content">
         <h1>WELCOME TO</h1>
-        <h1 className="welcome-title">AGRI<span>TECH</span> 2<span>.</span>0</h1>
+        <h1 className="welcome-title">AGRI<span> TECH</span> 2<span>.</span>0</h1>
       </div>
     </div>
   );
@@ -73,8 +73,8 @@ const Home = () => {
                 <Header />
                 <video src={bg} className="w-full h-full object-cover" autoPlay loop muted playsInline ></video>            
                 <div className="home-container">
-                    <h1>AGRI<span>TECH</span> 2<span>.</span>0</h1>
-                    <p>An Intra-college, 24 hours Hackathon by the Department of Agricultural Engineering at Kongunadu college of Engineering and Technology. Agritech2.0 brings technology and agriculture together, empowering innovators to revolutionize farming with AI, IoT, and smart solutions. Join us to cultivate ideas and drive the future of agritech!</p>
+                    <h1>AGRI<span> TECH</span> 2<span>.</span>0</h1>
+                    <p>An Intra-college, 24 hours Hackathon by the Department of Agricultural Engineering at Kongunadu college of Engineering and Technology. Agritech 2.0 brings technology and agriculture together, empowering innovators to revolutionize farming with AI, IoT, and smart solutions. Join us to cultivate ideas and drive the future of agritech!</p>
                     <button className="button" onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfwVPwTUJ9HwiJ29QlEAXj_kNR-eok8pk8A0hFHZwGPVHmutA/viewform', '_blank')}></button>
                 </div>
             </div>       

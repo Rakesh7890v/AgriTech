@@ -4,18 +4,18 @@ const DomainsContainer = () => {
   return (
     <div className="domains-container">
       <h2 className="domains-title">DOMA<span>INS</span></h2>
-      <ul className="domains-list">
-        <li className="domain-item">Drones revolutionizing farming.</li>
-        <li className="domain-item">Climate based smart agriculture</li>
-        <li className="domain-item">Urban agriculture & vertical farming</li>
-        <li className="domain-item">Pest and disease Management.</li>
-        <li className="domain-item">AI tools in farm machinery.</li>
-        <li className="domain-item">Agri waste Management</li>
-        <li className="domain-item">Real time farm Management system.</li>
-        <li className="domain-item">Solar based grain drying system.</li>
-        <li className="domain-item">Multifunctional crop cutter.</li>
-        <li className="domain-item">Water quality monitoring system</li>
-      </ul>
+      <div className="domains-list">
+        <p className="domain-item">Drones Revolutionizing Farming.</p>
+        <p className="domain-item">Climate Based Smart Agriculture</p>
+        <p className="domain-item">Urban Agriculture & Vertical Farming</p>
+        <p className="domain-item">Pest and Disease Management.</p>
+        <p className="domain-item">AI Tools in Farm Machinery.</p>
+        <p className="domain-item">Agri Waste Management</p>
+        <p className="domain-item">Real Time Farm Management System.</p>
+        <p className="domain-item">Solar Based Grain Drying System.</p>
+        <p className="domain-item">Multifunctional Crop Cutter.</p>
+        <p className="domain-item">Water Quality Monitoring System</p>
+      </div>
     </div>
   );
 };
