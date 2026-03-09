@@ -7,20 +7,20 @@ const Prizes = () => {
     const prizes = [
         {
             id: 1,
-            name: 'First Prize',
+            name: 'Prize',
             img: first,
-            cash: 5000
+            cash: 3000
         },
         {
             id: 2,
-            name: 'Second Prize',
-            img: second,
+            name: 'Prize',
+            img: first,
             cash: 3000
         },{
             id: 3,
-            name: 'Third Prize',
-            img: third,
-            cash: 2000
+            name: 'Prize',
+            img: first,
+            cash: 3000
         }
     ];
 
@@ -28,7 +28,7 @@ const Prizes = () => {
   return (
        <div id="prizes" className="cash-container">
             <h1>Thrilling <span>Rewards</span></h1>
-            <p>Industry experts will select the top three teams to win Rupees 10,000 in prizes.</p>
+            <p>The top team in each of the three domains will receive a cash prize of Rupees 3,000.</p>
             <div className="cash-cards">
                 {prizes.map(prize => (
                     <div className="cash" key={prize.id}>
