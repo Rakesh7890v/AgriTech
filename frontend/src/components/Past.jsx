@@ -14,8 +14,8 @@ const Past = () => {
 
   return (
     <div className="event-container">
-        <h1>AGRI <span>TECH</span> 1<span>.</span>0</h1>
-        <p>Agritech 1.0 is the 24 hour Hackathon, marked a new milestone by integrating technology with agriculture.  As gathering engineers for Networking and innovation creators for different ideas in agriculture. This event fostered collaboration, creativity, and problem-solving to drive the future of agritech.</p>
+        <h1>AGRI <span>TECH</span></h1>
+        <p>Agritech is the 24 hour Hackathon, marked a new milestone by integrating technology with agriculture.  As gathering engineers for Networking and innovation creators for different ideas in agriculture. This event fostered collaboration, creativity, and problem-solving to drive the future of agritech.</p>
         <div className="image-grid-container">
             {images.map((image, index) => (
             <div key={index} className="image-item">

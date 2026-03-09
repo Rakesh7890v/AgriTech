@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const FAQSection = () => {
   const faqs = [
-    { question: "Who can participate in Agritech 2.0?", answer: "Agritech 2.0 is an intra-college hackathon open to II and III year students from all departments at Kongunadu College of Engineering and Technology." },
+    { question: "Who can participate in Agritech 3.0?", answer: "Agritech 2.0 is an intra-college hackathon open to II and III year students from all departments at Kongunadu College of Engineering and Technology." },
     { question: "What should we bring to the hackathon?", answer: "Participants should bring their hardware components for their project. Hardware requirements will not be provided by the organizers." },
     { question: "How will teams be evaluated?", answer: "Teams will be evaluated based on innovation, technical complexity, practicality of implementation, potential impact on agriculture, and presentation quality by a panel of industry experts." },
     { question: "Can we start working on our project before the hackathon?", answer: "No, all development work must be done during the 24-hour hackathon period. However, teams can research and conceptualize ideas before the event." },

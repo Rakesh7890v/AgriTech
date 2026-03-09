@@ -51,7 +51,6 @@ const GuidelinesSection = () => {
       "A team can have participants from different departments.", 
       "Single registration is enough for the entire team.", 
       "Same team can submit multiple ideas and member of a team should not be in any other team.", 
-      "Teams can choose their own problem statement and will be shortlisted based on the innovation ideas.", 
       "Hardware requirements will not be provided." 
     ];
   
