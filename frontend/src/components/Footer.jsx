@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="student-coordinators">
                     <h3>STUDENT CO-ORDINATORS</h3>
                     <ul>
-                        <li><span className="name">Christopher. S</span>, IV Year - <span className="phone">8220083222</span></li>
+                        <li><span className="name">Imayavan .I</span>, IV Year - <span className="phone">8637446635</span></li>
                     </ul>
                     </div>
                 </div>
